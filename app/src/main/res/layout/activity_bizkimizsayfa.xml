@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appp"
+    android:orientation="vertical"
+    tools:context=".bizkimizsayfa">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BİZ KİMİZ?"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/siyah"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="         İngilizcenin bizler için önemli bir yere sahip olduğu ve her şeyden
+önce kelime bilgisinin önemini düşünerek sizlere böyle bir uygulamayı sunduk.
+Kullanımı kolay ve rahat olduğundan dolayı öğrenmeye ve kelime haznesini geliştirmeye
+ yönelik önemli ilerlemeler
+kaydedeceğinizi düşünüyoruz."
+        android:layout_marginTop="8dp"
+        android:textColor="@color/siyah"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="10dp"
+        android:text="         8 temel konulardan oluşan toplamda 300 günlük kelimeler bulunmaktadır." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/siyah"
+        android:layout_marginTop="10dp"
+        android:text="         Bilişim sektöründe kendimi geliştirmeye ve öğrenmeye adamış, sediğim
+işi yapmaktan mutlu olan üniversite öğrencisiyim."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/siyah"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="         Eksikler, hatalar, görüşleriniz, önerileriniz ve her türlü işbirliği için
+sosyal medya hesaplarımdan ulaşabilirsiniz."/>
+
+
+
+    <ImageView
+    android:id="@+id/instaimg"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:src="@drawable/insta"/>
+
+    <TextView
+        android:id="@+id/instatxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/siyah"
+        android:text="fssfddfsdfsdsfdfsdfs"/>
+
+
+    <ImageView
+        android:id="@+id/twitterimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/twitter"/>
+
+    <TextView
+        android:id="@+id/twittertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/siyah"
+        android:text="fssfddfsdfsdsfdfsdfs"/>
+
+    <ImageView
+        android:id="@+id/mailimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/mail"/>
+
+    <TextView
+        android:id="@+id/mailtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:textColor="@color/siyah"
+        android:layout_marginLeft="90dp"
+        android:text="fssfddfsdfsdsfdfsdfs"/>
+
+
+</LinearLayout>
